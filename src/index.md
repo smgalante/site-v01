@@ -13,7 +13,7 @@ order: 1
 	  </span>
 	</h1>
 	<div class="flex space-x-6 py-4">
-	  <a href="mailto:steven@smgalante.com" class="text-gray-700 hover:text-indigo-500">
+	  <a href="mailto:XXX" class="text-gray-700 hover:text-indigo-500">
 		<i class="fa-solid fa-envelope fa-2xl"></i>
 	  </a>
 	  <a href="https://linkedin.com/in/smgalante" class="text-gray-700 hover:text-indigo-500">
