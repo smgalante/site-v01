@@ -22,7 +22,7 @@ order: 1
 	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 u-url link">
 		<i class="fa-brands fa-threads fa-2xl"></i>
 	  </a>
-	  <a href="/contact/" class="text-gray-700  link">
+	  <a rel="me" href="/contact/" class="text-gray-700 u-url u-uid link">
 		  <i class="fa-solid fa-envelope fa-2xl"></i>
 		</a>
 	</div>
