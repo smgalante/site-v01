@@ -6,13 +6,13 @@ modified: 2022-01-09 00:00:00
 order: 1
 ---
 <div class="flex items-center justify-center h-screen bg-gray-100">
-  	<div class="h-card flex flex-col items-center">
+  	<div class="flex flex-col items-center">
 	  <h1 class="pb-3 text-center">
-	  	<span class="text-4xl font-bold text-gray-500 hover:text-indigo-500 u-url p-name">
-		<a href="/">{{ config.siteTitle }}</a>
+	  	<span class="text-4xl font-bold text-gray-500 hover:text-indigo-500">
+		<a href="/" class="h-card u-url p-name">{{ config.siteTitle }}</a>
 	  </span>
 	</h1>
-	<div class="flex space-x-6 py-4">
+	<div class="h-card flex space-x-6 py-4">
 	  <a href="https://linkedin.com/in/smgalante" class="text-gray-700 u-url link">
 		<i class="fa-brands fa-linkedin-in fa-2xl"></i>
 	  </a>
