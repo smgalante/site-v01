@@ -2,7 +2,7 @@
 title: Home
 layout: home
 tags: page
-modified: 2022-01-09 00:00:00
+modified: 2025-06-26 00:00:00
 order: 1
 ---
 <div class="flex items-center justify-center h-screen bg-gray-100">

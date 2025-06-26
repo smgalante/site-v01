@@ -1,6 +1,6 @@
 ---
 title: contact
-layout: home
+layout: base-subpage
 tags: page
 modified: 2025-06-26
 permalink: /contact/

@@ -1,6 +1,6 @@
 ---
 title: pgp
-layout: home
+layout: base-subpage
 tags: page
 permalink: /pgp/
 modified: 2025-06-26
