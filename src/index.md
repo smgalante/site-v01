@@ -12,17 +12,17 @@ order: 1
 		<a href="/" rel="me home author" class="h-card u-url p-name">{{ config.siteTitle }}</a>
 	  </span>
 	</h1>
-	<div class="h-card flex space-x-6 py-4">
-	  <a rel="me" href="https://linkedin.com/in/smgalante" class="text-gray-700 u-url link">
+	<div class="flex space-x-6 py-4">
+	  <a rel="me" href="https://linkedin.com/in/smgalante" class="text-gray-700 h-card u-url link">
 		<i class="fa-brands fa-linkedin-in fa-2xl"></i>
 	  </a>
-	  <a rel="me" href="https://bsky.app/profile/smgalante.com" class="text-gray-700 u-url link">
+	  <a rel="me" href="https://bsky.app/profile/smgalante.com" class="text-gray-700 h-card u-url link">
 		<i class="fa-brands fa-bluesky fa-2xl"></i>
 	  </a>
-	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 u-url link">
+	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 h-card u-url link">
 		<i class="fa-brands fa-threads fa-2xl"></i>
 	  </a>
-	  <a rel="me" href="/contact/" class="text-gray-700 u-url u-uid link">
+	  <a rel="me" href="/contact/" class="text-gray-700 h-card u-url u-uid link">
 		  <i class="fa-solid fa-envelope fa-2xl"></i>
 		</a>
 	</div>
