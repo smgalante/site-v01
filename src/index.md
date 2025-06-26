@@ -13,18 +13,18 @@ order: 1
 	  </span>
 	</h1>
 	<div class="flex space-x-6 py-4">
-	  <a href="mailto:XXX" class="text-gray-700 hover:text-indigo-500">
-		<i class="fa-solid fa-envelope fa-2xl"></i>
-	  </a>
-	  <a href="https://linkedin.com/in/smgalante" class="text-gray-700 hover:text-indigo-500">
+	  <a href="https://linkedin.com/in/smgalante" class="text-gray-700 link">
 		<i class="fa-brands fa-linkedin-in fa-2xl"></i>
 	  </a>
-	  <a href="https://bsky.app/profile/smgalante.com" class="text-gray-700 hover:text-indigo-500">
+	  <a href="https://bsky.app/profile/smgalante.com" class="text-gray-700 link">
 		<i class="fa-brands fa-bluesky fa-2xl"></i>
 	  </a>
-	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 hover:text-indigo-500">
+	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 link">
 		<i class="fa-brands fa-threads fa-2xl"></i>
 	  </a>
+	  <a href="/contact/" class="text-gray-700  link">
+		  <i class="fa-solid fa-envelope fa-2xl"></i>
+		</a>
 	</div>
 		<h2 class="text-2xl mb-2">Public Affairs</h2>
 	</div>
