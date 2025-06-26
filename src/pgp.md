@@ -6,10 +6,14 @@ permalink: /pgp/
 modified: 2025-06-26
 order: 5
 ---
-<div class="flex items-center justify-center h-screen bg-gray-100">
+ 
+
+
+<div class="flex items-center justify-center min-h-screen bg-gray-100 px-4 py-12">
   <div class="flex flex-col items-center text-center">
-	  
-<pre class="u-key">
+ <a href="/public/steven-at-smgalante-com-721fe37b1262d1a3a6109846f5a295d1bfd6e1cc.asc" class="py-8 link" download> Download my GPG public key</a>
+
+<pre class="u-key mb-8">
 	-----BEGIN PGP PUBLIC KEY BLOCK-----
 	
 	mQINBGhdTIsBEADBTCrqjdTq+HbmM2+FjPd0tVc41S5HkSrAeNGkybhEUy4sqb6C
@@ -63,6 +67,7 @@ order: 5
 	=KLMk
 	-----END PGP PUBLIC KEY BLOCK-----
 </pre>
-<a href="/contact/" class="py-10 link text-gray-600">Back</a>
-  </div>
+<a href="/contact/" class="link text-gray-600">Back</a>
+
+</div>
 </div>
