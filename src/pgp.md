@@ -9,7 +9,7 @@ order: 5
 <div class="flex items-center justify-center h-screen bg-gray-100">
   <div class="flex flex-col items-center text-center">
 	  
-<pre>
+<pre class="u-key">
 	-----BEGIN PGP PUBLIC KEY BLOCK-----
 	
 	mQINBGhdTIsBEADBTCrqjdTq+HbmM2+FjPd0tVc41S5HkSrAeNGkybhEUy4sqb6C

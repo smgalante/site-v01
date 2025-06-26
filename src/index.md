@@ -8,18 +8,18 @@ order: 1
 <div class="flex items-center justify-center h-screen bg-gray-100">
   	<div class="flex flex-col items-center">
 	  <h1 class="pb-3 text-center">
-	  	<span class="text-4xl font-bold text-gray-500">
-		{{ config.siteTitle }}
+	  	<span class="text-4xl font-bold text-gray-500 u-url p-name">
+		<a href="/">{{ config.siteTitle }}</a>
 	  </span>
 	</h1>
-	<div class="flex space-x-6 py-4">
-	  <a href="https://linkedin.com/in/smgalante" class="text-gray-700 link">
+	<div class="flex space-x-6 h-card py-4">
+	  <a href="https://linkedin.com/in/smgalante" class="text-gray-700 u-url link">
 		<i class="fa-brands fa-linkedin-in fa-2xl"></i>
 	  </a>
-	  <a href="https://bsky.app/profile/smgalante.com" class="text-gray-700 link">
+	  <a href="https://bsky.app/profile/smgalante.com" class="text-gray-700 u-url link">
 		<i class="fa-brands fa-bluesky fa-2xl"></i>
 	  </a>
-	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 link">
+	  <a rel="me" href="https://www.threads.net/@smgalante" class="text-gray-700 u-url link">
 		<i class="fa-brands fa-threads fa-2xl"></i>
 	  </a>
 	  <a href="/contact/" class="text-gray-700  link">
