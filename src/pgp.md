@@ -7,8 +7,6 @@ modified: 2025-06-26
 order: 5
 ---
  
-
-
 <div class="flex items-center justify-center min-h-screen bg-gray-100 px-4 py-12">
   <div class="flex flex-col items-center text-center">
  <a href="/public/steven-at-smgalante-com-721fe37b1262d1a3a6109846f5a295d1bfd6e1cc.asc" class="py-8 link" download="steven-at-smgalante-com-721fe37b1262d1a3a6109846f5a295d1bfd6e1cc.asc"> Download my GPG public key</a>
