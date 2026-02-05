@@ -1,66 +1,127 @@
 <!doctype html>
 <html lang="en" dir="ltr">
-  <head>    
-    <link rel="canonical" href="{{ config.url }}{{ page.url }}">
+  <head>
+    <link rel="canonical" href="{{ config.url }}{{ page.url }}" />
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="https://kit.fontawesome.com/26fc54b77f.js" crossorigin="anonymous"></script>
-<script defer src="https://cloud.umami.is/script.js" data-website-id="bc9acca1-0770-4687-9eff-134f84d7acdd"></script>   
-   <title>{% if title and title != 'Home' %}{{title}} - {% endif %}{{ config.siteTitle }}</title>
+    <script
+      src="https://kit.fontawesome.com/26fc54b77f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://analytics.smgalante.org/script.js"
+      data-website-id="3d25b638-5211-4f73-9b5b-fcbb36568871"
+    ></script>
+    <title>
+      {% if title and title != 'Home' %}{{title}} - {% endif %}{{
+      config.siteTitle }}
+    </title>
 
     <!-- Icons -->
-    <link rel="shortcut icon" type="image/png" href="/images/x16-favicon.png" sizes="16x16" />
-    <link rel="shortcut icon" type="image/png" href="/images/x32-favicon.png" sizes="32x32" />
-    <link rel="shortcut icon" type="image/png" href="/images/x64-favicon.png" sizes="64x64" />
-    <link rel="shortcut icon" type="image/png" href="/images/x256-favicon.png" sizes="256x256" />
-    <link rel="apple-touch-icon" type="image/png" href="/images/x256-favicon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/images/x16-favicon.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/images/x32-favicon.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/images/x64-favicon.png"
+      sizes="64x64"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/images/x256-favicon.png"
+      sizes="256x256"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="/images/x256-favicon.png"
+    />
 
     <!-- Meta -->
-    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}">
-    <meta name="keywords" content="{% if keywords %}{{ keywords }}{% else %}{{ config.keywords }}{% endif %}">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta
+      name="description"
+      content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}"
+    />
+    <meta
+      name="keywords"
+      content="{% if keywords %}{{ keywords }}{% else %}{{ config.keywords }}{% endif %}"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <!-- Facebook -->
-    <meta property="og:title" content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ config.siteTitle }}">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}">
-    <meta property="og:url" content="{{ config.url }}{{ page.url }}">
-    <meta property="og:image" content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}">
+    <meta
+      property="og:title"
+      content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ config.siteTitle }}"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}"
+    />
+    <meta property="og:url" content="{{ config.url }}{{ page.url }}" />
+    <meta
+      property="og:image"
+      content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}"
+    />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="{{ card }}">
-    <meta name="twitter:site" content="{{ twitter }}">
-    <meta name="twitter:title" content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ config.siteTitle }}">
-    <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}">
-    <meta name="twitter:creator" content="{{ twitter }}">
-    <meta name="twitter:image" content="{{ config.url }}{{ page.url }}">
-    <meta name="twitter:domain" content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}">
-    
-    <meta name="fediverse:creator" content="@smgalante@mastodon.social">
-    <meta name="fediverse:creator" content="@smgalante@threads.net">
-    
-    <link rel="me home author" href="https://smgalante.com/">
-    <link rel="me" href="https://github.com/smgalante">
-    <link rel="me" href="https://twitch.tv/marxinsoho">
-    <link rel="me" href="https://twitter.com/smgalante">
-    <link rel="me" href="https://threads.net/@smgalante">
-    <link rel="me" href="https://mastodon.social/@smgalante">
-    <link rel="me" href="https://bsky.app/profile/smgalante.com">
-    <link rel="me" href="https://www.linkedin.com/in/smgalante">
-    
-    <link rel="pgpkey" href="/public/steven-at-smgalante-com-721fe37b1262d1a3a6109846f5a295d1bfd6e1cc.asc">
+    <meta name="twitter:card" content="{{ card }}" />
+    <meta name="twitter:site" content="{{ twitter }}" />
+    <meta
+      name="twitter:title"
+      content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ config.siteTitle }}"
+    />
+    <meta
+      name="twitter:description"
+      content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}"
+    />
+    <meta name="twitter:creator" content="{{ twitter }}" />
+    <meta name="twitter:image" content="{{ config.url }}{{ page.url }}" />
+    <meta
+      name="twitter:domain"
+      content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}"
+    />
 
+    <meta name="fediverse:creator" content="@smgalante@mastodon.social" />
+    <meta name="fediverse:creator" content="@smgalante@threads.net" />
+
+    <link rel="me home author" href="https://smgalante.com/" />
+    <link rel="me" href="https://github.com/smgalante" />
+    <link rel="me" href="https://twitch.tv/marxinsoho" />
+    <link rel="me" href="https://twitter.com/smgalante" />
+    <link rel="me" href="https://threads.net/@smgalante" />
+    <link rel="me" href="https://mastodon.social/@smgalante" />
+    <link rel="me" href="https://bsky.app/profile/smgalante.com" />
+    <link rel="me" href="https://www.linkedin.com/in/smgalante" />
+
+    <link
+      rel="pgpkey"
+      href="/public/steven-at-smgalante-com-721fe37b1262d1a3a6109846f5a295d1bfd6e1cc.asc"
+    />
   </head>
-<body>   
-    
-    <div>
-			{{ content | safe }}
-    </div>
+  <body>
+    <div>{{ content | safe }}</div>
 
     <footer class="mt-0 text-center text-base text-gray-500">
-      <p>&copy; {{ '' | year }} - <a href="{{ config.url }}">{{ config.siteTitle }}</a> | <a href="/sitemap.xml" class="text-indigo-500">Site Map</a></p>
+      <p>
+        &copy; {{ '' | year }} -
+        <a href="{{ config.url }}">{{ config.siteTitle }}</a> |
+        <a href="/sitemap.xml" class="text-indigo-500">Site Map</a>
+      </p>
     </footer>
   </body>
 </html>
