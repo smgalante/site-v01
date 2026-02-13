@@ -21,6 +21,7 @@ export default function (config) {
   // Add pages collection
   config.addCollection("pages", function (collections) {
     return collections.getFilteredByTag("page").sort(function (a, b) {
+      // Safety check: Ensure 'order' exists to avoid sorting errors
       return (a.data.order || 0) - (b.data.order || 0);
     });
   });
