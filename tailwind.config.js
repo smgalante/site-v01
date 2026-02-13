@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   mode: "jit",
   darkMode: "media", // or 'media' or 'class'
   theme: {
