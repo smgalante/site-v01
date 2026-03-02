@@ -7,7 +7,7 @@
     "start": "npm-run-all -p dev:*",
     "build": "npx @11ty/eleventy && npx tailwindcss -i src/css/styles.sass -o _site/css/styles.css",
     "dev:11ty": "eleventy --serve --quiet",
-    "dev:css": "tailwindcss -i src/css/styles.sass -o _site/css/styles.css --watch --postcss"
+    "dev:css": "npx tailwindcss -i src/css/styles.sass -o _site/css/styles.css --watch --postcss"
   },
   "repository": {
     "type": "git",
