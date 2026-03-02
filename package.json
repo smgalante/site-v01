@@ -1,6 +1,7 @@
 {
   "name": "eleventy-tailwind-template",
   "version": "1.0.0",
+  "type": "module",
   "description": "Template for using Eleventy and Tailwind CSS",
   "scripts": {
     "start": "npm-run-all -p dev:*",
